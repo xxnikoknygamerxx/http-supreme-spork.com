@@ -1,0 +1,241 @@
+		
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			background-color: #fff; 
+			
+		}
+
+		header {
+			background-color: #2DA89B;
+			color: #0F252B;
+			padding: 30px;
+			text-align: center;
+			border-bottom-right-radius: 30px;
+			border-bottom-left-radius: 30px;
+
+        }
+
+		.images-container {
+			margin: 0 auto;
+			text-align: center;
+			padding-top: 50px;
+		}
+
+		.image-container {
+			display: inline-block;
+			position: relative;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		.image-container img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		.image-description {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			padding: 10px;
+			font-size: 16px;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+		}
+
+		.image-container:hover .image-description {
+			opacity: 1;
+		}
+
+		.section {
+			margin: 50px auto;
+			max-width: 800px;
+		}
+
+		.section img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+
+		.section p {
+			font-size: 16px;
+			line-height: 1.5;
+			text-align: justify;
+		}
+
+		.section-title {
+			font-size: 24px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.block1 {
+			display:flex;
+  			border: 1.5px solid #051B19;
+		  padding: 10px;
+  			width: 75%;
+ 		 margin: 0 100px;
+		 border-radius: 10px;
+		 background-color: #2DA89B;
+		 overflow: auto;
+		 margin-bottom: 2cm ;
+		 justify-content: center;
+		}
+
+		.block1 img {
+ 		 float: right;
+ 		 margin-left: px;
+		}
+		.block2 {
+			display:flex;
+  			border: 1.5px solid #051B19;
+		  padding: 10px;
+  			width: 75%;
+ 		 margin: 0 300px;
+		 border-radius: 10px;
+		 background-color: #2DA89B;
+		 overflow: auto;
+		 margin-bottom: 2cm ;
+		 justify-content: center;
+		}
+
+		.block2 img {
+ 		 float: left;
+ 		 margin-left: 20px;
+
+		}.block3{
+			display:flex;
+  			border: 1.5px solid #051B19;
+		  padding: 10px;
+  			width: 75%;
+ 		 margin: 0 100px;
+		 border-radius: 10px;
+		 background-color: #2DA89B;
+		 overflow: auto;
+		 margin-bottom: 2cm ;
+		 justify-content: left;
+		}
+
+		.block3 img {
+ 		 float: right;
+ 		 margin-left: 20px;
+		}
+		.block4 {
+			display:flex;
+  			border: 1.5px solid #051B19;
+		  padding: 10px;
+  			width: 75%;
+ 		 margin: 0 300px;
+		 border-radius: 10px;
+		 background-color: #2DA89B;
+		 overflow: auto;
+		 margin-bottom: 2cm ;
+		 justify-content: center;
+		}
+
+		.block4 img {
+ 		 float: right;
+ 		 margin-left: 20px;
+		}
+		h2{
+			font-family: 'Montserrat', sans-serif;
+		}
+		.texto-grande {
+			font-size: 50 px;
+		}
+		.texto-aun-mas-grande{
+			font-family: 'Montserrat', serif;
+			font-size: 35 px;
+		}
+		p{
+		font-family: 'Montserrat', sans-serif;
+		}
+		.container {
+			flex: 1;
+      		margin-right: 20px;
+		}
+
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+
+		.container p {
+	 	 padding-left: 20px;
+		  text-align: left;
+		}
+		ul {
+			font-size: 20px;
+  			list-style-type: disc; 
+ 		 list-style-position: inside; 
+		}
+
+		li {
+ 		 margin: 10px 0;  
+		}
+		h1{
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+		.ul1{
+			font-size:17px;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.contenedor-imagen-texto {
+ 	 		position: relative;
+		}
+
+		.contenedor-imagen-texto img {
+  			display: block;
+  			margin: 0 auto;
+		}
+
+		.contenedor-texto {
+		  position: absolute;
+		  top: 0;
+ 		 left: 0;
+ 		 right: 0;
+		  bottom: 0;
+ 		 display: flex;
+ 		 flex-direction: column;
+ 		 justify-content: center;
+ 		 align-items: center;
+ 		 color: #ffffff;
+ 		 text-align: center;
+ 		 padding: 20px;
+ 		 background-color: rgba(0, 0, 0, 0.671);
+		 text-decoration-line: none;
+		}
+		.a:link{
+			color: #fff;
+			text-decoration: none;
+		}
+		a:visited {
+ 	 		color: rgb(255, 255, 255);
+		  text-decoration: none;
+		}
+		a:focus, a:hover {
+ 			color: #fff;
+			opacity: 60%; 
+			text-decoration: none;
+		}
+		.contenedor {
+  			display: flex;
+  			align-items: center;	
+		}
+
+		img {
+  			width: 50%;
+  			margin-right: 20px;
+		}
